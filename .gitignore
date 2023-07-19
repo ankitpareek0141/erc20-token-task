@@ -4,11 +4,11 @@ coverage
 coverage.json
 typechain
 typechain-types
+_cacache
+_logs
+_update-notifier-last-checked
 
 # Hardhat files
 cache
 artifacts
-_cacache
-_logs
-_update-notifier-last-checked
 
