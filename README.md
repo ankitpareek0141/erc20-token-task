@@ -2,7 +2,7 @@
 
 This repository contains a simple ERC-20 smart contract and a Hardhat deployment script to deploy the contract to the Ethereum network. The ERC-20 contract allows for the creation and management of a basic fungible token, which can be used for various purposes, including tokenizing assets, creating digital currencies, and facilitating decentralized applications.
 <br />
-<br />
+
 ## Prerequisites
 
 To deploy the ERC-20 contract, you need the following software and tools:
@@ -10,7 +10,6 @@ To deploy the ERC-20 contract, you need the following software and tools:
 1. [Node.js](https://nodejs.org) (version 12 or above)
 2. [Hardhat](https://hardhat.org/) (installed globally)
 3. [Ganache](https://www.trufflesuite.com/ganache) (for local development and testing)
-<br />
 <br />
 
 ## Getting Started
@@ -31,12 +30,11 @@ npm install
 Download and install Ganache from https://www.trufflesuite.com/ganache.
 Run Ganache and set up a new workspace.
 <br />
-<br />
 
 ## ERC-20 Contract
 The ERC-20 smart contract is located in the contracts folder. The contract is named TokenContract.sol, and it includes the standard functions for ERC-20 tokens, such as retrieving total supply, balance of tokens for an address, transferring tokens, approving token spending, and more.
 <br />
-<br />
+
 ## Deployment Instructions
 1. Compile the smart contract:
 ```bash
@@ -49,7 +47,7 @@ PVT_KEY = Paste your account private key here
 INFURA_KEY = Paste your infura key here
 ``` 
 
-3. Deploy the ERC-20 contract to the Ethereum network:
+3. Deploy the ERC-20 contract to the Ethereum Mainnet or Testnet network:
 ```bash
 npx hardhat run scripts/deploy.js --network ganache
 ```
@@ -58,7 +56,6 @@ npx hardhat run scripts/deploy.js --network ganache
 
 5. Here is the link of the deployed smart contract and transactions on 
 [etherscan](https://goerli.etherscan.io/address/0xd2a2b4771589bdd0c452898d3507b2b3a0e96636) (on goerli network)
-<br />
 <br />
 
 ## Testing
@@ -69,7 +66,6 @@ You can also run tests to ensure the ERC-20 contract functions as expected:
 npx hardhat test
 ```
 The test suite will execute, and you should see the results of the tests in the console.
-<br />
 <br />
 
 ## License
