@@ -12,8 +12,8 @@ To deploy the ERC-20 contract, you need the following software and tools:
 3. [Ganache](https://www.trufflesuite.com/ganache) (for local development and testing)
 <br />
 <br />
-## Getting Started
 
+## Getting Started
 1. Clone the repository to your local machine:
 
 ```bash
@@ -32,6 +32,7 @@ Download and install Ganache from https://www.trufflesuite.com/ganache.
 Run Ganache and set up a new workspace.
 <br />
 <br />
+
 ## ERC-20 Contract
 The ERC-20 smart contract is located in the contracts folder. The contract is named TokenContract.sol, and it includes the standard functions for ERC-20 tokens, such as retrieving total supply, balance of tokens for an address, transferring tokens, approving token spending, and more.
 <br />
@@ -59,6 +60,7 @@ npx hardhat run scripts/deploy.js --network ganache
 [etherscan](https://goerli.etherscan.io/address/0xd2a2b4771589bdd0c452898d3507b2b3a0e96636) (on goerli network)
 <br />
 <br />
+
 ## Testing
 You can also run tests to ensure the ERC-20 contract functions as expected:
 
@@ -69,5 +71,6 @@ npx hardhat test
 The test suite will execute, and you should see the results of the tests in the console.
 <br />
 <br />
+
 ## License
 This smart contract is licensed under the MIT License.
